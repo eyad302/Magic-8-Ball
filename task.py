@@ -22,3 +22,8 @@ def get_user_guess():
                 print("pls enter a num between 1 and 100")
         except ValueError:
             print("invalid input")
+def main():
+    get_user_guess()
+    x=get_random()
+    print (x)
+main()
